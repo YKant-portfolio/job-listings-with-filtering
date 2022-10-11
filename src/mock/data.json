@@ -10,7 +10,7 @@
 		"level": "Senior",
 		"postedAt": "1d ago",
 		"contract": "Full Time",
-		"location": "USA Only",
+		"location": "Remote",
 		"languages": [
 			"HTML",
 			"CSS",
@@ -48,7 +48,7 @@
 		"level": "Junior",
 		"postedAt": "2d ago",
 		"contract": "Part Time",
-		"location": "USA Only",
+		"location": "Saint Petersburg",
 		"languages": [
 			"JavaScript"
 		],
@@ -68,7 +68,7 @@
 		"level": "Junior",
 		"postedAt": "5d ago",
 		"contract": "Contract",
-		"location": "USA Only",
+		"location": "Saint Petersburg",
 		"languages": [
 			"CSS",
 			"JavaScript"
@@ -106,7 +106,7 @@
 		"level": "Junior",
 		"postedAt": "2w ago",
 		"contract": "Full Time",
-		"location": "UK Only",
+		"location": "Moscow",
 		"languages": [
 			"Ruby"
 		],
@@ -145,7 +145,7 @@
 		"level": "Junior",
 		"postedAt": "2w ago",
 		"contract": "Full Time",
-		"location": "USA Only",
+		"location": "Vologda Only",
 		"languages": [
 			"JavaScript"
 		],
