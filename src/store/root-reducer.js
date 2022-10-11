@@ -1,3 +1,8 @@
 import { combineReducers } from "redux";
+import { positionReducer } from "./positions/positions-reducer";
+import { filterReduser } from "./filters/filter-reducer";
 
-export const rootReducer = combineReducers({});
+export const rootReducer = combineReducers({
+	positions: positionReducer,
+	filters: filterReduser,
+});
