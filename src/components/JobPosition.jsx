@@ -17,6 +17,7 @@ const JobPosition = ({
 	location,
 	languages,
 	tools,
+	handelAddFilter,
 }) => {
 	const badges = [].concat(role, level, ...languages, ...tools);
 
@@ -65,7 +66,12 @@ const JobPosition = ({
 				</div>
 				<Stack>
 					{badges.map(item => (
-						<Badge key={item}>{item}</Badge>
+						<Badge
+							key={item}
+							onClick={() => handelAddFilter(item)}
+						>
+							{item}
+						</Badge>
 					))}
 				</Stack>
 			</div>
@@ -89,4 +95,5 @@ JobPosition.propTypes = {
 	location: PropTypes.string,
 	languages: PropTypes.arrayOf(PropTypes.string),
 	tools: PropTypes.arrayOf(PropTypes.string),
+	handelAddFilter: PropTypes.func,
 };
